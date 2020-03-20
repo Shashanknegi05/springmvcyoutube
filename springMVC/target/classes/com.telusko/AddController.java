@@ -1,10 +1,12 @@
+package com.telusko;
 
 @Controller
-public class Add {
+public class AddController {
 	
 	@RequestMapping("/add")
-	public void add() {	
+	public String add() {	
 		System.out.println("I m inside controller now");
+		return "display.jsp";
 	}
 
 }
