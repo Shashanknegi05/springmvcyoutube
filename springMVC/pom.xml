@@ -15,15 +15,15 @@
       <scope>test</scope>
     </dependency>
 
-    <dependency>
+    <!-- <dependency>
     	<groupId>org.springframework</groupId>
     	<artifactId>spring-context</artifactId>
     	<version>5.2.4.RELEASE</version>
-    </dependency>
+    </dependency> -->
     <dependency>
     	<groupId>org.springframework</groupId>
     	<artifactId>spring-webmvc</artifactId>
-    	<version>5.2.4.RELEASE</version>
+    	<version>3.2.6.RELEASE</version>
     </dependency>
     <dependency>
     	<groupId>mysql</groupId>
